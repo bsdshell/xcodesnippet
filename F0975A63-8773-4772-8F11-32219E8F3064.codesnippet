@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dict</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    NSMutableArray* array = [[NSMutableArray alloc]init];
+    NSMutableArray* intArray = [[NSMutableArray alloc]init];
+    [intArray addObject:[MyLib NumInt:1]];
+    [intArray addObject:[MyLib NumInt:2]];
+
+    NSMutableArray* intArray2 = [[NSMutableArray alloc]init];
+    [intArray2 addObject:[MyLib NumInt:1]];
+    [intArray2 addObject:[MyLib NumInt:2]];
+
+    NSMutableDictionary* dict = [[NSMutableDictionary alloc]init];
+    [dict setObject:@"kk" forKey:intArray];
+    [dict setObject:@"kk3" forKey:intArray2];
+    NSString* str = @"";
+    
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F0975A63-8773-4772-8F11-32219E8F3064</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>array and dictionary</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
