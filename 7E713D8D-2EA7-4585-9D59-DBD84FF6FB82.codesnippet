@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lay</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    CAShapeLayer* _shapeLayer;
+
+    self.shapeLayer = [CAShapeLayer layer];
+
+    CGRect rect = CGRectMake(_myUpLeft.x, _myUpLeft.y, _width, _height);
+    _shapeLayer.bounds = rect;
+    
+    UIBezierPath* path = [UIBezierPath bezierPathWithRoundedRect:rect cornerRadius:1.0];
+    [_shapeLayer setFrame:rect];
+    _shapeLayer.path = [path CGPath];
+    _shapeLayer.strokeColor = [MyLib getColorMap:self.strokeColorFlag];
+    _shapeLayer.fillColor = [MyLib getColorMap:_myColorFlag];
+    _shapeLayer.lineWidth = 1;
+    UIView* myView = (UIView*)view;
+    [myView.layer addSublayer:_shapeLayer];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7E713D8D-2EA7-4585-9D59-DBD84FF6FB82</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>cashapelayer layer</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>CAShapeLayer</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

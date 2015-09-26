@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>calloc 2dmalloc</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@public MyDrawGrid* __strong ** _arrayGridGrid;
+
+_arrayGridGrid = (MyDrawGrid* __strong **)calloc(_numGridHeight, sizeof(MyDrawGrid* __strong *));
+        for(int i=0; i&lt;_numGridHeight; i++){
+            _arrayGridGrid[i] = (MyDrawGrid* __strong *)calloc(_numGridWidth, sizeof(MyDrawGrid*));
+        }
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>67227BC6-C71D-4BAF-9D83-1F6B015E2FFD</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>double pointer with __strong 2d malloc</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
